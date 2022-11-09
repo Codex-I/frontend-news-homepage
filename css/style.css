@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 73px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+
+}
+p {
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    color: grey;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+main img {
+    width: 100%;
+}
+
+.main-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.main-txt {
+    display: flex;
+    gap: 74px;
+}
+
+.main-txt h1 {
+    font-size: 52px;
+    width: 44%;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.mn-p {
+    color: grey;
+    width: 43%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.mn-p button {
+    width: 41%;
+    padding: 10px;
+    background-color: hsl(5, 85%, 63%);
+    color: aliceblue;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+aside {
+    background-color: hsl(240, 100%, 5%);
+    padding: 27px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 34%;
+}
+
+aside h2 {
+    font-size: xx-large;
+    color: hsl(35, 77%, 62%);
+}
+
+.arts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: hsl(233, 8%, 79%);
+}
+
+
+.arts a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+}
+
+.arts a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+hr {
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+
+.foot {
+    display: flex;
+}
+
+.foot img {
+    width: 20%;
+}
+
+.foot article {
+    display: flex;
+    gap: 17px;
+}
+
+article section {
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+article h1 {
+    color: hsl(233, 8%, 79%);
+    font-size: x-large;
+}
+
+article a {
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: hsl(5, 85%, 63%);
+}

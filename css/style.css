@@ -131,15 +131,15 @@ hr {
     border: none;
 }
 
-.foot {
+footer {
     display: flex;
 }
 
-.foot img {
+footer img {
     width: 20%;
 }
 
-.foot article {
+footer article {
     display: flex;
     gap: 17px;
 }
